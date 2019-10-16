@@ -54,6 +54,24 @@
 <link rel="manifest" href="public/manifest.json">
 
 <link rel="stylesheet" href="assets/stylesheets/application.css" type="text/css"/>
+<style>
+a.video {
+  display: block;
+  font-size:smaller;
+}
+a.video:before { 
+  content: ""; 
+  display: inline-block; 
+  background-image: url("assets/images/pages/home/video.svg");
+  background-repeat:no-repeat;
+  background-size:20px 20px;
+  background-position: 0% 80%;
+  vertical-align: bottom;
+  width:24px; 
+  height:24px;
+  margin-right:4px;
+}
+</style>
 
 </head>
 
@@ -730,6 +748,7 @@
             <figcaption class="schedule__talk-details">
               <div class="schedule__talk-title">Practical Guide to Discourage your Boss from Migrating into Kubernetes</div>
               <small class="schedule__speaker-name">Giovanni Sakti</small>
+              <a class="video" href="https://youtu.be/ZrF4mb5Hgt0">Video</a>
             </figcaption>
           </figure>
 
@@ -940,6 +959,7 @@
             <figcaption class="schedule__talk-details">
               <div class="schedule__talk-title">Smaller is always better</div>
               <small class="schedule__speaker-name">Phil Nash</small>
+              <a class="video" href="https://youtu.be/0OeYnDNO5aI">Video</a>
             </figcaption>
           </figure>
 
